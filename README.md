@@ -7,7 +7,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
 ## Files included in this repository
-The astrolabe consists of two laser cut sheets (one of which is two-sided) and two 3d printed pointers.  The two-sided sheet is opaque, while the one-sided sheet is transparent.
+The astrolabe consists of two laser cut sheets (one of which is two-sided) and two 3d printed pointers.  The two-sided sheet is opaque (this combines the what is traditionally called the "mater" and the "tympan"), while the one-sided sheet (traditionally called the "rete") is transparent.
 
 The files included are:
 1. The front of the opaque sheet (SVG)
@@ -54,11 +54,21 @@ The equation of time contours are spaced every 2 minutes, with the heavy contour
 ## Accuracy and equation of time
 With some care, you should expect to get elevation sightings within a degree or two of the true elevation.   You should be aware that this is accurate enough to see the difference between local apparent solar time and mean solar time, so you should use the equation of time etched on the back to compensate accordingly.  Making this correction, I routinely get measurements of local mean time to within about 20 minutes of the right time.
 
-However, the calendar scale on the front of the astrolabe is already corrected for the equation of time, in that the right ascension of the sun will be correct.  The calendar scale on the back of the astrolabe is *not* the same (days are uniformly spaced on the back) so that you get correct equation of time readings.
+The calendar scale on the front of the astrolabe is already corrected for the equation of time, in that the right ascension of the sun will be correct.  (This is why you need to apply the equation of time correction separately to get local mean solar time.)  The calendar scale on the back of the astrolabe is *not* the same (days are uniformly spaced on the back) so that you get correct equation of time readings.
 
-## Modification for other latitudes
-This astrolabe is for use near a single latitude, that being 39 degrees North.  You will probably get satisfactory results within a few degrees of that latitude.
+## Modification for other latitudes or other changes you might want
+The Jupyter notebook is very flexible, and it has many options you might want to adjust to suit your preferences.
 
-If you wish to make an astrolabe for a different latitude, you'll need to modify the front sheet (only).  The other files do not need modifications for other northern latitudes.  You will need to rerun the Jupyter notebook with your desired latitude.  You must then manually edit the resulting files that the Jupyter notebook produces so that they are suitable for laser cutting.  This cleanup is rather time consuming!
+This astrolabe is for use near a single latitude, that being 39 degrees North.  You will probably get satisfactory results within a few degrees of that latitude.  If you wish to make an astrolabe for a different latitude, you must modify the front sheet (only).  The other files do not need modifications for other northern latitudes.  Rerun the Jupyter notebook with your desired latitude, which is a setting near the very top of the notebook.  You must then manually edit the resulting files that the Jupyter notebook produces (you only need the one named "tympan_<latitude>.svg") so that they are suitable for laser cutting.  This cleanup is rather time consuming!  In my case, I made the following adjustments:
+
+1. Trim the azimuth and elevation contours so they don't run into the other scales
+2. Bold every ten degree increment in the elevation contours
+3. Label the unequal hours
+4. Mark the latitude so that it's obvious
+5. Set the colors and the line widths to suit your laser cutter.  I found the text looked best when filled for raster (black) and outlined with vector (blue).
+6. Add a thumb ring.  (Hint: copy the outer cut countour -- red -- so that it's exactly the same dimensions for the front and back, taking care that the centers are aligned precisely)
+7. Set the diameter of the center hole to be 5/32" so that a 6-32 machine screw will pass freely but with no side play.
+
+If you are just visiting another latitude, you can rerun the Jupyter notebook to make a paper insert with a printout of just the center of the of the front sheet (the azimuth and elevation contours, which is traditionally called the "tympan").  You can slip this behind the transparent sheet and you're good to go.  I find it helpful to tack the paper to the opaque sheet with a tiny dab of mounting putty so that it doesn't move around when rotating the transparent sheet (the "rete").
 
 If you want an astrolabe for southern latitudes, you will also need to modify the transparent sheet as it contains a star chart.  This would involve extensive modifications to the Jupyter notebook and is not recommended.
