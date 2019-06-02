@@ -1,7 +1,7 @@
 # large_astrolabe
 A large astrolabe suitable for laser cutting.  This is a modern restyling of Chaucer's astrolabe described in his famous (and very readable) _Treatise_on_the_Astrolabe_, circa 1400.  The two main differences are that I incorporate the equation of time into the sun's right ascension, and that the sun's right ascension is given by calendar days instead of signs of the zodiak.  The back is quite different, since I don't need a trig table... and because we now have an accurate equation of time.
 
-A picutre of a finished example can be found [http://mathematicalmachines.blogspot.com/2019/05/astrolabe-upgrade.html]
+A picture of a finished example can be found [http://mathematicalmachines.blogspot.com/2019/05/astrolabe-upgrade.html]
 Construction details for a wood and paper version (no laser cutter nor 3d printer required) using essentially the same files can be found [https://mathematicalmachines.blogspot.com/2019/01/wooden-astrolabe.html]
 
 (c) 2019 Michael Robinson
