@@ -3,6 +3,7 @@ A large astrolabe suitable for laser cutting.  This is a modern restyling of Cha
 
 A picture of a finished example can be found [http://mathematicalmachines.blogspot.com/2019/05/astrolabe-upgrade.html]
 Construction details for a wood and paper version (no laser cutter nor 3d printer required) using essentially the same files can be found [https://mathematicalmachines.blogspot.com/2019/01/wooden-astrolabe.html]
+A video of how to use the astrolabe can be found at [https://www.youtube.com/watch?v=tt-_GKmX8dk]
 
 (c) 2019 Michael Robinson
 
