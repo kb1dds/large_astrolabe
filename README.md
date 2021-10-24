@@ -21,6 +21,8 @@ The files included are:
 5. The STL file for the pointer
 6. A Jupyter notebook that generates the original SVG files, which were then manually cleaned and formatted for our laser cutter.
 
+There are two options for the transparent "rete": one with just a few guide stars and one with many more stars marked.  You only need one.
+
 ## Construction
 You need to print two copies of the pointer, one copy of the transparent sheet, and both sides of the opaque sheet.  The thumb ring at the top of the astrolabe helps to keep the front and back sides aligned when laser cutting: once you've cut one size, simply remove the half-printed astrolabe and flip it back into the cutout you just made.  That way the front and back should be aligned.  Make sure to check that it *is* aligned, though!
 
