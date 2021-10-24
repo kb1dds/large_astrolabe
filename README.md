@@ -5,7 +5,7 @@ A picture of a finished example can be found [http://mathematicalmachines.blogsp
 Construction details for a wood and paper version (no laser cutter nor 3d printer required) using essentially the same files can be found [https://mathematicalmachines.blogspot.com/2019/01/wooden-astrolabe.html]
 A video of how to use the astrolabe can be found at [https://www.youtube.com/watch?v=tt-_GKmX8dk]
 
-(c) 2019 Michael Robinson
+(c) 2021 Michael Robinson
 
 This work is licensed under the Creative Commons Attribution 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
@@ -37,7 +37,7 @@ The pointers have "wings" to help take sightings through the centerline of the a
 Starting from the center (moving outward) of the front of the astrolabe, the scales are
 1. Right ascension (hours and tens of minutes)
 2. Sun right ascension (calendar) (days in a mean solar year, but not evenly spaced)
-3. Local apparent solar time (hours and 15 minutes)
+3. Local apparent solar time (hours and 10s of minutes)
 4. True north oriented compass (degrees)
 
 Contours on the front:
