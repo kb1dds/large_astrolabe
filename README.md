@@ -19,9 +19,12 @@ The files included are:
 3. The back of the transparent sheet (it's etched in reverse!) (SVG)
 4. The OpenSCAD source for the pointer
 5. The STL file for the pointer
-6. A Jupyter notebook that generates the original SVG files, which were then manually cleaned and formatted for our laser cutter.
+6. An SVG file for the pointers
+7. A Jupyter notebook that generates the original SVG files, which were then manually cleaned and formatted for our laser cutter.
 
 There are two options for the transparent "rete": one with just a few guide stars and one with many more stars marked.  You only need one.
+
+There are two options for the pointers.  You can either 3d print both pointers using the STL file, or you can laser cut them using the SVG file.
 
 ## Construction
 You need to print two copies of the pointer, one copy of the transparent sheet, and both sides of the opaque sheet.  The thumb ring at the top of the astrolabe helps to keep the front and back sides aligned when laser cutting: once you've cut one size, simply remove the half-printed astrolabe and flip it back into the cutout you just made.  That way the front and back should be aligned.  Make sure to check that it *is* aligned, though!
@@ -33,7 +36,9 @@ The astrolabe is held together with one standard 6-32 machine screw that's at le
 3. The transparent sheet (oriented so that its etched size is in contact with the front face of the opaque sheet)
 4. The front pointer
 
-The pointers have "wings" to help take sightings through the centerline of the astrolabe clear of the head or the nut of the screw.  The wings face outward on both sides of the astrolabe.
+The pointers have "wings" to help take sightings through the centerline of the astrolabe clear of the head or the nut of the screw.  The wings face outward on both sides of the astrolabe.  These wings are integrated into the STL file, so you can just print two copies of the same pointer.
+
+If you choose to use the SVG file to laser cut the pointers, the back pointer wings are the two smaller tabs.  You should glue them to the main body of the pointer.  Be very careful to ensure that they are aligned!  Also make sure that the screw head doesn't block your view when sighting along the wings.  You might need to make the wings from thicker stock to ensure this.  For the front, you can either use the same back pointer design (wings on the front pointer are optional), or use a pointer with an etched line instead of the "wings".
 
 ## Front scales
 Starting from the center (moving outward) of the front of the astrolabe, the scales are
