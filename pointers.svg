@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="502.83335"
+     inkscape:zoom="0.7"
+     inkscape:cx="288.32197"
      inkscape:cy="666.51206"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -74,7 +74,7 @@
     </g>
     <g
        id="g17633"
-       transform="translate(1.305016)">
+       transform="translate(1.305016,7.9375004)">
       <path
          id="path5560-1"
          transform="scale(0.26458333)"
@@ -94,7 +94,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.025;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 82.777007,102.42806 v 9.19634 h -68.20772 v -0.10077 a 9.098013,9.098013 0 0 1 -0.0537,0.002 9.098013,9.098013 0 0 1 -9.09816,-9.09764 z"
+       d="m 82.777007,103.75099 v 9.19634 h -68.20772 v -0.10077 a 9.098013,9.098013 0 0 1 -0.0537,0.002 9.098013,9.098013 0 0 1 -9.09816,-9.09764 z"
        id="path5560-1-8-6"
        inkscape:connector-curvature="0" />
     <text
@@ -223,12 +223,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="35.283268"
-       y="136.13324"
+       y="144.07063"
        id="text17786"><tspan
          sodipodi:role="line"
          id="tspan17784"
          x="35.283268"
-         y="136.13324"
+         y="144.07063"
          style="stroke-width:0.26458332">Back pointer main body, also front pointer (option 2)</tspan></text>
     <text
        xml:space="preserve"
